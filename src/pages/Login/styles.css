@@ -4,13 +4,11 @@ body {
   }
 
 .Logo{
-    background-image: url(./slaclogo.png);
-    margin: 10px;
-    padding: 100px;
-    position: bottom;
-    width: 250px;
-    height: 150px;
-    text-align: center;
+    left: 600px;
+    top: 30px;
+    position: absolute;
+    width: 10%;
+    padding: 3px 4px 5px 2px;
   }
 
 .basediv{
@@ -34,3 +32,10 @@ body {
     border-bottom: 2px solid #b5b5b5;
   
   }
+
+  .waves{
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    width:100%;
+    }

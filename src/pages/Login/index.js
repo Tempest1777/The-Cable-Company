@@ -1,24 +1,17 @@
 import React from "react";
 import "./styles.css";
-import slaclogo from '../Login/slaclogo.png';
-import Background from "../../components/Background/background.js";
+import slaclogo from "../../assets/slaclogotransparent.png";
+import waves from "../../assets/waves.png";
 
 const Login = () => {
- return <div> 
- 
- <img src={slaclogo} alt="Logo"
-     width = {120} 
-
-    
-
- 
- /> 
-
-  <Background/>
-    
-  </div>;
-  <h1>    we/ldelkjqf;3  </h1>
-  
+  return (
+    <div>
+      <img className="Logo" src={slaclogo} alt="Logo" width={120} />
+      <div className="basediv">
+        <img className="waves" src={waves} alt="Logo" />
+      </div>
+    </div>
+  );
 };
- 
+
 export default Login;
