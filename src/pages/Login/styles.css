@@ -1,0 +1,36 @@
+body {
+    
+  background-color: #EFEFEF;
+  }
+
+.Logo{
+    background-image: url(./slaclogo.png);
+    margin: 10px;
+    padding: 100px;
+    position: bottom;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+  }
+
+.basediv{
+
+  margin:40px auto;
+  border-radius: 12px;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  padding: 100px;
+  border: 1px solid #000000; 
+  }
+  
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+  header {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #b5b5b5;
+  
+  }
