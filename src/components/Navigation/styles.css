@@ -76,3 +76,8 @@ li {
 .searchContent {
   padding: 15px;
 }
+
+.welcomeMessage{
+  font-size: 18px;
+  font-weight: bolder;
+}
