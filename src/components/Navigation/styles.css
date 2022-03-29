@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+.background {
+  position: absolute;
+  width: 286px;
+  height: 100%;
+  background: #f6f9fc;
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
+}
+.button {
+  position: absolute;
+  width: 250px;
+  height: 53px;
+  left: 18px;
+  top: 126px;
+
+  border: none;
+  background: #812130;
+  border-radius: 11px;
+}
+.CreateNew {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.NavigationList {
+  position: absolute;
+  width: 149px;
+  height: 466px;
+  left: 59px;
+  top: 234px;
+}
+.listTitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  color: rgba(135, 22, 40, 0.9);
+}
+.listText {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 10px 0px;
+  color: #5f7285;
+}
+.companyLogo {
+  position: absolute;
+  left: 60px;
+  top: 50px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: row;
+}
+.iconContainer {
+  margin: 10px;
+  align-self: center;
+}
+.searchContent {
+  padding: 15px;
+}
+
+.welcomeMessage {
+  font-size: 18px;
+  font-weight: bolder;
+}
