@@ -11,13 +11,11 @@ const Nav = () => {
       <div className="background">
         <img src={CompanyLogo} width="170" className="companyLogo" />
         <button className="button">
-          <p className="CreateNew">+ Create New</p>
+          <p className="CreateNew">Create New</p>
         </button>
         <div className="NavigationList">
           <div className="userInfo">
-            <div className="iconContainer">
-  
-            </div>
+            <div className="iconContainer"></div>
           </div>
           <h1 className="listTitle">MY DESK</h1>
           <ul>

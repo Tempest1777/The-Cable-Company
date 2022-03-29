@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 .profile {
   position: absolute;
   background-color: #ffffff;
@@ -6,29 +6,29 @@
   top: 0px;
   width: 1175px;
   height: 75px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-.profile__heading{
-    font-size: 16px;
-    margin: 27px;
-    font-weight: bold;
-    color: #585858;
+.profile__heading {
+  font-size: 16px;
+  margin: 27px;
+  font-weight: bold;
+  color: #585858;
 }
 
-.notifications__icon{
-    position: absolute;
-    right: 200px;
-    bottom: 28px;
+.notifications__icon {
+  position: absolute;
+  right: 200px;
+  bottom: 28px;
 }
 
-.notifications__profile{
+.notifications__profile {
   position: absolute;
   right: 120px;
   bottom: 15px;
 }
 
-.notifications__name{
+.notifications__name {
   position: absolute;
   right: 45px;
   bottom: 30px;
