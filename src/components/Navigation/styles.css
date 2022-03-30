@@ -32,10 +32,41 @@
 }
 .NavigationList {
   position: absolute;
+  left: 59px;
+  top: 210px;
   width: 149px;
   height: 466px;
-  left: 59px;
-  top: 234px;
+}
+.homeIcon {
+  position: absolute;
+  left: 10px;
+  top: 79px;
+}
+.sendIcon {
+  position: absolute;
+  left: 10px;
+  top: 125px;
+}
+.cableIcon {
+  position: absolute;
+  left: 10px;
+  top: 170px;
+}
+.documentsIcon {
+  position: absolute;
+  left: 10px;
+  top: 215px;
+}
+
+.settingsIcon {
+  position: absolute;
+  left: 10px;
+  top: 315px;
+}
+.logoutIcon {
+  position: absolute;
+  left: 10px;
+  top: 360px;
 }
 .listTitle {
   font-family: "Open Sans";
