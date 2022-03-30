@@ -1,7 +1,9 @@
 import React from "react";
 import "./styles.css";
-import slaclogo from "../../assets/slaclogotransparent.png";
-import waves from "../../assets/waves.png";
+import SLACLOGO from "../../assets/slaclogotransparent.png";
+import WAVES from "../../assets/waves.png";
+import MAIL from "../../assets/mail.png";
+import LOCK from "../../assets/lock.png";
 
 import {Link} from "react-router-dom";
 
@@ -9,22 +11,25 @@ const Login = () => {
   return (
     <main className="login__content">
       <form className="login__form">
-      <img className="Logo" src={slaclogo} alt="Logo" width={120} />
+      <img className="Logo" src={SLACLOGO} alt="Logo"/>
       <div className="login__title">Login</div>
-      <div className="basediv">
+      
       
         <div className="form">
-          <div className="form-field username">
+          
+          <div className="form-field username">User Portal Email/Account Name
             <div className="icon">
-              <i className="far fa-user"></i>
+            <img className="mailIcon" src={MAIL} alt="Email" width="20"/>
+           
             </div>
-            <input type="text" placeholder="Username" />
+            <input type="text"  />
           </div>
-          <div className="form-field password">
+          <div className="form-field password">Password
             <div className="icon">
-              <i className="fas fa-lock"></i>
+            <img className="mailIcon" src={LOCK} alt="Lock" width="20"/>
+    
             </div>
-            <input type="password" placeholder="Password" />
+            <input type="password" />
           </div>
           <Link to="/dashboard">
           <button className="login-button" type="submit">
@@ -32,10 +37,10 @@ const Login = () => {
           </button>
           </Link>
         </div>
-      </div>
+   
       </form>
       <div className="login-card-footer"></div>
-      <img className="waves" src={waves} alt="Logo" />
+      <img className="waves" src={WAVES} alt="Waves" />
     </main>
   );
 };

@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 body {
   background: #efefef;
+  font-family: "Lato", sans-serif;
 }
 
 .Logo {
@@ -11,12 +13,16 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.login__title{
-  font-size: 40px;
+.login__title {
+  font-size: 35px;
   font-weight: bold;
+  letter-spacing: 0.07em;
+  left: 680px;
+  top: 200px;
+  position: absolute;
 }
 
-.basediv {
+.form {
   margin: 100px auto;
   border-radius: 12px;
   width: 250px;
@@ -42,20 +48,52 @@ header {
 
 .login-button {
   position: absolute;
-  padding: 10px 120px 10px 120px;
-  left: 570px;
-  top: 300px;
+  padding: 10px 130px 10px 130px;
+  left: 550px;
+  top: 460px;
   border-radius: 6px;
   border: none;
   color: white;
   font-size: 25px;
   background: #871628f5;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  opacity: 90%;
+}
+
+
+.login-button:active {
+  opacity: 80%;
+}
+
+.username {
+  margin: 0px 10px 0px -40px;
+  padding: 70px 0px 0px 0px;
+}
+
+.password {
+  margin: 0px 10px 0px -40px;
+  padding: 40px 0px 0px 0px;
 }
 
 .form-field {
-  margin-bottom: 16px;
+  font-size: 16px;
+  color: #131313;
+}
+
+.form-field input {
+  height: 110%;
   width: 100%;
-  position: relative;
+  padding: 5px 0px 10px 45px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-bottom: 3px solid rgba(19, 19, 19, 0.5);
+  border-top: 2px solid transparent;
+  transition: red 0.4s ease;
 }
 
 form-field .icon {
@@ -110,4 +148,9 @@ form-field input:focus {
 
 form-field input:hover::placeholder {
   color: #d61e2d;
+}
+
+.mailIcon {
+  position: absolute;
+  margin: 10px;
 }
