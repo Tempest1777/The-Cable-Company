@@ -1,8 +1,9 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard/Dashboard"
-import UpdateCaptar from "./pages/UpdateCaptar/UpdateCaptar"
+import Dashboard from "./pages/Dashboard"
+import UpdateCaptar from "./pages/UpdateCaptar"
+
 
 function App() {
   return (
