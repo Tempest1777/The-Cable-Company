@@ -1,0 +1,18 @@
+.mainArea{
+    background-color: rgba(238,238,238,0.986);
+    height: 92%;
+    width: 100%;
+    padding: 40px 50px 20px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.largecardcontainer{
+    height: 100%;
+    width: 60%;
+}
+
+.smallcardcontainer{
+    height: 100%;
+    width: 30%;
+}

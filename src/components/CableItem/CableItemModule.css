@@ -1,0 +1,16 @@
+.cableItem{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+#cableName{
+    color: blue;
+}
+
+#date{
+    color: gray;
+    font-weight: 100;
+}

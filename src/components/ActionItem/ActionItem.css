@@ -1,0 +1,22 @@
+.actionitem{
+    align-self: center;
+    width: 95%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.leftBox{
+    width: 70%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.rightBox{
+    width: 40%;
+    height: 100%;
+    border: 1px solid green;
+}
