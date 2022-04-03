@@ -1,5 +1,5 @@
 .cableItem{
-    border: 1px solid black;
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,5 +12,5 @@
 
 #date{
     color: gray;
-    font-weight: 100;
+    font-weight: 100; 
 }

@@ -5,9 +5,9 @@ import styles from './CableItem.module.css';
 
 function CableItem(props){
     return(
-        <div className={styles.CableItem}>
-            <p> id={styles["cableName"]}{props.cableName}</p>
-            <p> id={styles["date"]}{props.date}</p>
+        <div className={styles.cableItem}>
+            <p id={styles["cableName"]}>{props.cableName}</p>
+            <p id={styles["date"]}>{props.date}</p>
         </div>
     );
 }
