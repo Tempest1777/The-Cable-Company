@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 import Card from "../Card/Card";
-import styles from '../MainArea/MainAreaModule.css';
+import styles from "../MainArea/MainArea.module.css";
 
 class MainArea extends Component {
     constructor(props){

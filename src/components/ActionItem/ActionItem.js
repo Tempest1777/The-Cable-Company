@@ -1,6 +1,6 @@
 import React,{ Component } from "react";
 
-import styles from './ActionItem.css';
+import styles from '../ActionItem/ActionItem.module.css';
 
 function ActionItem(props){
     return(

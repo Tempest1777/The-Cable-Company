@@ -10,8 +10,8 @@ const Dashboard = () => {
   return (
     <div className="dashboard">
       <Navigation />
-      <MainArea/>
-      <Profile />
+       <MainArea/>
+      <Profile />   
     </div>
   );
 };

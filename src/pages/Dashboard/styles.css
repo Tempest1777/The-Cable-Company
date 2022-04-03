@@ -4,5 +4,10 @@ body{
 
 .dashboard{
     background-color: #efefef;
-    
+}
+
+.mainArea{
+    position: absolute;
+    bottom:5px;
+    right: 5px;
 }

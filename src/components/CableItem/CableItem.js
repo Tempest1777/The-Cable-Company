@@ -1,7 +1,7 @@
 import { func } from "prop-types";
 import React,{Component} from "react";
 
-import styles from './CableItemModule.css';
+import styles from './CableItem.module.css';
 
 function CableItem(props){
     return(
