@@ -22,7 +22,7 @@ export default class Card extends Component{
         );
         case "Upload":
           return(
-            <div className='style.upload'>
+            <div className={styles.upload}>
             <img src={'../../upload.png'} alt="cloud"></img>
             <small>Drop files here or click to upload</small>
             </div>
@@ -41,7 +41,7 @@ export default class Card extends Component{
 
   render(){
     return(
-      <div className={'styles.card'}>
+      <div className={styles.card}>
         <div className={styles.title}>{this.props.title}</div>
         <div className={styles.tag}>{this.props.title}</div>
         <this.ConditionalRender props={this.props}/>
